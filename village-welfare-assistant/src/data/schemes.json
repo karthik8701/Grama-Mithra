@@ -1,0 +1,121 @@
+[
+    {
+        "id": "pm_kisan",
+        "name_te": "పీఎం-కిసాన్",
+        "name_en": "PM-KISAN",
+        "description_te": "రైతులకు సంవత్సరానికి ₹6,000 ఆర్థిక సహాయం",
+        "description_en": "₹6,000 annual financial assistance to farmers",
+        "eligibility": {
+            "occupation": ["farmer"],
+            "landOwnership": ["yes"],
+            "income": ["low", "medium"],
+            "ageGroup": ["adult", "senior"]
+        },
+        "benefits_te": "సంవత్సరానికి ₹6,000 (3 సమాన భాగాల్లో)",
+        "benefits_en": "₹6,000 per year (in 3 equal installments)",
+        "application_te": "గ్రామ సచివాలయం, CSC లేదా ఆన్లైన్ ద్వారా దరఖాస్తు చేసుకోండి. ఆధార్ కార్డ్, భూమి రికార్డులు, బ్యాంక్ వివరాలు అవసరం.",
+        "application_en": "Apply at Gram Sachivalayam, CSC or online. Requires Aadhaar card, land records, bank details.",
+        "website": "https://pmkisan.gov.in",
+        "helpline_te": "155261 / 1800115526",
+        "helpline_en": "155261 / 1800115526"
+    },
+    {
+        "id": "ayushman_bharat",
+        "name_te": "ఆయుష్మాన్ భారత్",
+        "name_en": "Ayushman Bharat",
+        "description_te": "బీపీఎల్ కుటుంబాలకు ₹5 లక్షల వరకు ఉచిత ఆరోగ్య బీమా",
+        "description_en": "Free health insurance up to ₹5 lakh for BPL families",
+        "eligibility": {
+            "healthNeeds": ["yes"],
+            "income": ["low"],
+            "familySize": ["medium", "large"],
+            "occupation": ["laborer", "unemployed", "farmer"]
+        },
+        "benefits_te": "ఆస్పత్రిలో చికిత్సకు ₹5 లక్షల వరకు కవరేజీ",
+        "benefits_en": "Coverage up to ₹5 lakh for hospital treatment",
+        "application_te": "రెసిడెన్షియల్ డాక్యుమెంట్ ఆధారంగా ఆన్లైన్లో దరఖాస్తు. ఆధార్ కార్డ్, రెసిడెన్షియల్ డాక్యుమెంట్, కాస్ట్/ఇన్కమ్ సర్టిఫికేట్ అవసరం.",
+        "application_en": "Apply online based on residential documents. Requires Aadhaar, residential proof, caste/income certificate.",
+        "website": "https://pmjay.gov.in",
+        "helpline_te": "14555 / 1800111565",
+        "helpline_en": "14555 / 1800111565"
+    },
+    {
+        "id": "ujjwala",
+        "name_te": "ఉజ్జ్వల యోజన",
+        "name_en": "Ujjwala Yojana",
+        "description_te": "బీపీఎల్ గృహిణులకు ఉచిత ఎల్ పి జి కనెక్షన్",
+        "description_en": "Free LPG connection to BPL households",
+        "eligibility": {
+            "occupation": ["housewife", "laborer"],
+            "income": ["low"],
+            "familySize": ["small", "medium", "large"],
+            "ageGroup": ["adult"]
+        },
+        "benefits_te": "ఉచిత ఎల్ పి జి కనెక్షన్ మరియు రెగ్యులేటర్",
+        "benefits_en": "Free LPG connection and regulator",
+        "application_te": "నెస్టెడ్ ఎల్ పి జి డీలర్ ద్వారా దరఖాస్తు చేసుకోండి. బీపీఎల్ రేషన్ కార్డ్, ఆధార్ కార్డ్, ఆధార్ లింక్డ్ బ్యాంక్ అకౌంట్ అవసరం.",
+        "application_en": "Apply through nearest LPG dealer. Requires BPL ration card, Aadhaar card, Aadhaar-linked bank account.",
+        "website": "https://pmuy.gov.in",
+        "helpline_te": "18002666696",
+        "helpline_en": "18002666696"
+    },
+    {
+        "id": "rythu_bharosa",
+        "name_te": "రైతు భరోసా",
+        "name_en": "Rythu Bharosa",
+        "description_te": "రైతులకు పెన్షన్ మద్దతు మరియు పెట్టుబడి సహాయం",
+        "description_en": "Pension support and investment assistance for farmers",
+        "eligibility": {
+            "occupation": ["farmer"],
+            "ageGroup": ["adult", "senior"],
+            "income": ["low", "medium"],
+            "landOwnership": ["yes"]
+        },
+        "benefits_te": "సంవత్సరానికి ₹10,000 మద్దతు (కొన్ని రాష్ట్రాల్లో ₹13,500)",
+        "benefits_en": "₹10,000 support per year (₹13,500 in some states)",
+        "application_te": "మండల్ అధికారి లేదా రెవెన్యూ శాఖలో దరఖాస్తు చేసుకోండి. భూమి పట్టా, ఆధార్ కార్డ్, బ్యాంక్ పాస్బుక్ అవసరం.",
+        "application_en": "Apply at Mandal Office or Revenue Department. Requires land patta, Aadhaar card, bank passbook.",
+        "website": "https://rythubharosa.ap.gov.in",
+        "helpline_te": "1902 / 0863-2347300",
+        "helpline_en": "1902 / 0863-2347300"
+    },
+    {
+        "id": "pm_awas",
+        "name_te": "పీఎం ఆవాస్ యోజన",
+        "name_en": "PM Awas Yojana",
+        "description_te": "బీపీఎల్ కుటుంబాలకు గృహ నిర్మాణ సహాయం",
+        "description_en": "House construction assistance for BPL families",
+        "eligibility": {
+            "income": ["low"],
+            "familySize": ["medium", "large"],
+            "occupation": ["laborer", "unemployed", "farmer"],
+            "ageGroup": ["adult"]
+        },
+        "benefits_te": "గ్రామీణ ప్రాంతాల్లో ₹1.2 లక్షలు, నగర ప్రాంతాల్లో ₹2.5 లక్షలు",
+        "benefits_en": "₹1.2 lakh in rural areas, ₹2.5 lakh in urban areas",
+        "application_te": "గ్రామ సచివాలయంలో దరఖాస్తు చేసుకోండి. బీపీఎల్ రేషన్ కార్డ్, ఆధార్ కార్డ్, స్థిర నివాస ధృవీకరణ, కుటుంబ ఆదాయ ధృవీకరణ అవసరం.",
+        "application_en": "Apply at Gram Sachivalayam. Requires BPL ration card, Aadhaar card, permanent residence proof, family income certificate.",
+        "website": "https://pmaymis.gov.in",
+        "helpline_te": "1800116446",
+        "helpline_en": "1800116446"
+    },
+    {
+        "id": "nsap",
+        "name_te": "నేషనల్ సోషల్ అసిస్టెన్స్ ప్రోగ్రామ్",
+        "name_en": "National Social Assistance Programme",
+        "description_te": "వృద్ధులు, విధవలు మరియు వికలాంగులకు పెన్షన్",
+        "description_en": "Pension for elderly, widows and disabled persons",
+        "eligibility": {
+            "ageGroup": ["senior"],
+            "income": ["low"],
+            "occupation": ["unemployed", "laborer"]
+        },
+        "benefits_te": "మాసిక పెన్షన్ ₹200 నుండి ₹1,000 వరకు",
+        "benefits_en": "Monthly pension from ₹200 to ₹1,000",
+        "application_te": "గ్రామ సచివాలయం లేదా మండల్ అధికారి ద్వారా దరఖాస్తు చేసుకోండి. వయస్సు ధృవీకరణ, ఆదాయ ధృవీకరణ, విధవ/వికలాంగ ధృవీకరణ అవసరం.",
+        "application_en": "Apply through Gram Sachivalayam or Mandal Officer. Requires age proof, income certificate, widow/disabled certificate.",
+        "website": "https://nsap.nic.in",
+        "helpline_te": "1800115526",
+        "helpline_en": "1800115526"
+    }
+]

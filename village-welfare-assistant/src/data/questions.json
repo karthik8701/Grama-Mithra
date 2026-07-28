@@ -1,0 +1,71 @@
+{
+    "questions": [
+        {
+            "id": "ageGroup",
+            "question_te": "దయచేసి మీ వయస్సు గ్రూపును ఎంచుకోండి:",
+            "question_en": "Please select your age group:",
+            "options": [
+                { "id": "minor", "text_te": "18 సంవత్సరాల కంటే తక్కువ", "text_en": "Below 18 years" },
+                { "id": "adult", "text_te": "18-59 సంవత్సరాలు", "text_en": "18-59 years" },
+                { "id": "senior", "text_te": "60 సంవత్సరాలు లేదా అంతకంటే ఎక్కువ", "text_en": "60 years or above" }
+            ],
+            "type": "single"
+        },
+        {
+            "id": "occupation",
+            "question_te": "మీ వృత్తి ఏమిటి?",
+            "question_en": "What is your occupation?",
+            "options": [
+                { "id": "farmer", "text_te": "రైతు", "text_en": "Farmer" },
+                { "id": "laborer", "text_te": "కూలీ / కార్మికుడు", "text_en": "Laborer / Worker" },
+                { "id": "student", "text_te": "విద్యార్థి", "text_en": "Student" },
+                { "id": "business", "text_te": "చిన్న వ్యాపారం", "text_en": "Small Business" },
+                { "id": "housewife", "text_te": "గృహిణి", "text_en": "Housewife" },
+                { "id": "unemployed", "text_te": "నిరుద్యోగి", "text_en": "Unemployed" }
+            ],
+            "type": "single"
+        },
+        {
+            "id": "income",
+            "question_te": "మీ సంవత్సర ఆదాయం ఎంత?",
+            "question_en": "What is your annual income?",
+            "options": [
+                { "id": "low", "text_te": "₹1,00,000 కంటే తక్కువ", "text_en": "Below ₹1,00,000" },
+                { "id": "medium", "text_te": "₹1,00,000 - ₹2,50,000", "text_en": "₹1,00,000 - ₹2,50,000" },
+                { "id": "high", "text_te": "₹2,50,000 కంటే ఎక్కువ", "text_en": "Above ₹2,50,000" }
+            ],
+            "type": "single"
+        },
+        {
+            "id": "landOwnership",
+            "question_te": "మీకు స్వంత భూమి ఉందా?",
+            "question_en": "Do you own agricultural land?",
+            "options": [
+                { "id": "yes", "text_te": "ఉంది", "text_en": "Yes" },
+                { "id": "no", "text_te": "లేదు", "text_en": "No" }
+            ],
+            "type": "single"
+        },
+        {
+            "id": "familySize",
+            "question_te": "మీ కుటుంబంలో ఎంత మంది సభ్యులు ఉన్నారు?",
+            "question_en": "How many members are in your family?",
+            "options": [
+                { "id": "small", "text_te": "1-3 మంది", "text_en": "1-3 members" },
+                { "id": "medium", "text_te": "4-6 మంది", "text_en": "4-6 members" },
+                { "id": "large", "text_te": "7 మంది లేదా అంతకంటే ఎక్కువ", "text_en": "7 or more members" }
+            ],
+            "type": "single"
+        },
+        {
+            "id": "healthNeeds",
+            "question_te": "మీ కుటుంబానికి ఆరోగ్య సంబంధిత సహాయం అవసరమా?",
+            "question_en": "Does your family need health-related assistance?",
+            "options": [
+                { "id": "yes", "text_te": "కావలి", "text_en": "Yes" },
+                { "id": "no", "text_te": "వద్దు", "text_en": "No" }
+            ],
+            "type": "single"
+        }
+    ]
+}
