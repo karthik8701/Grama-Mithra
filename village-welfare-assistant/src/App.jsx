@@ -14,7 +14,6 @@ function App() {
   const {
     messages,
     currentStep,
-    userData,
     currentLanguage,
     schemes,
     showResults,
