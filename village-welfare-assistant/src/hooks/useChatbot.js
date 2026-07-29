@@ -28,7 +28,7 @@ const useChatbot = () => {
     } else {
       setQuickOptions([]);
     }
-  }, [currentStep, currentLanguage]);
+  }, [currentStep, currentLanguage, questions, totalQuestions]);
 
   const loadSchemes = () => {
     setSchemes(schemesData.map(scheme => ({ ...scheme, matchScore: 0 })));
@@ -42,25 +42,6 @@ const useChatbot = () => {
         : 'Welcome! I\'ll help you find suitable government schemes. I\'ll ask a few simple questions.'
     };
     setMessages([welcomeMsg]);
-  };
-
-  const askQuestion = () => {
-    if (currentStep >= totalQuestions) {
-      calculateSchemes();
-      setShowResults(true);
-      addCompletionMessage();
-      return;
-    }
-
-    const question = questions[currentStep];
-    const questionText = currentLanguage === 'te' ? question.question_te : question.question_en;
-    
-    const botMessage = {
-      type: 'bot',
-      text: questionText
-    };
-    
-    setMessages(prev => [...prev, botMessage]);
   };
 
   const addCompletionMessage = () => {
@@ -246,7 +227,7 @@ const useChatbot = () => {
         setMessages(prev => [...prev, botMessage]);
       }, 500);
     }
-  }, [messages.length]);
+  }, [messages.length, currentLanguage, questions]);
 
   return {
     messages,
